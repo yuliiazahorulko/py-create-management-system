@@ -24,7 +24,7 @@ def write_students_information(students: list[Student]) -> int:
 
 def read_groups_information() -> list:
     file_path = "groups.pickle"
-    groups = []
+    groups: Specialty.name = []
     try:
         with open(file_path, "rb") as file:
             while True:
