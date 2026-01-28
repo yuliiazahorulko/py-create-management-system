@@ -1,6 +1,7 @@
 import pickle
 
 from app.group import Group
+from app.specialty import Specialty
 from app.student import Student
 
 
